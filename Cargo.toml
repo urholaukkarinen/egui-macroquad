@@ -13,8 +13,8 @@ keywords = ["gui", "imgui", "immediate", "portable", "gamedev"]
 include = ["LICENSE-APACHE", "LICENSE-MIT", "**/*.rs", "Cargo.toml"]
 
 [dependencies]
-egui = "0.22.0"
-egui-miniquad = { git = "https://github.com/urholaukkarinen/egui-miniquad.git" }
+egui = "0.23.0"
+egui-miniquad = { git = "https://github.com/urholaukkarinen/egui-miniquad.git", rev = "df4cb4a" }
 macroquad = { version = "0.3.25", default-features = false }
 
 [features]
